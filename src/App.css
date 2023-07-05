@@ -1,0 +1,124 @@
+/* RESET */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* END RESET */
+
+.landing-BG {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../src/assets/plm_cover.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.paper-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.paper-login {
+  width: 25rem;
+  margin: auto;
+  z-index: 999;
+  margin-bottom: 25rem;
+}
+
+.paper-login > * {
+  margin-bottom: 1rem;
+}
+
+.notification-login {
+  z-index: 999;
+  width: 25rem;
+  margin: auto;
+}
+
+/* HOME */
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../src/assets/inner-page-banner_aboutplm.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.topNav-home {
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.date-container {
+  z-index: 999;
+  text-align: right;
+}
